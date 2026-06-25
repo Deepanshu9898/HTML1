@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h2> Job Application </h2>
+        <label for="name">Enter Your Name : </label>
+        <br/>
+        <input type="text" id="name" name="name" >
+        <br/>
+        <br/>
+        <label for="email">Enter Email ID : </label>
+        <br/>
+        <input type="text" id="email" name="email" >
+        <br/>
+        <br/>
+        <label for="phone number">Enter Phone Number : </label>
+        <br/>
+        <input type="tel" id="phone number" name="phone number" >
+        <br/>
+        <br/>
+        <label for="Resume">Upload Your Resume : </label>
+        <br/>
+        <input type="file" id="Resume" name="Resume" >
+        <br/>
+        <br/>
+        <label for="Experience">Experience (Years) : </label>
+        <br/>
+        <input type="number" id="Experience" name="Experience" min="0" max="50" >
+        <br/>
+        <br/>
+        <fieldset>
+            <legend><b>Skills</b></legend>
+            <input type="checkbox" id="Web Developer" name="Skills">
+            <br/>
+            <label for="Web Developer">Web Developer</label> 
+            <br/>
+            <input type="checkbox" id="Data Scientist" name="Skills">
+            <br/>
+            <label for="Data Scientist">Data Scientist</label>
+            <br/>
+            <input type="checkbox" id="Full Stack Developer" name="Skills">
+            <br/>
+            <label for="Full Stack Developer">Full Stack Developer</label>
+            <br/>
+            <input type="checkbox" id="Python Developer" name="Skills">
+            <br/>
+            <label for="Python Developer">Python Developer</label>
+            <br/>
+        </fieldset>
+        <br/>
+        <label for="Highest Education">Highest Education : </label>
+        <br/>
+        <select name="Highest Education" id="Highest Education">
+            <option value="High School">High School</option>
+            <option value="Intermediate">Intermediate</option>
+            <option value="Bachelor's Degree">Bachelor's Degree</option>
+            <option value="Master's Degree">Master's Degree</option>
+            <option value="PhD">PhD</option>
+        </select>
+        <br/>
+        <br/>
+        <label for="Availability">Availability : </label>
+        <br/>
+        <input type="radio" id="Availability" name="Availability" value="Full Time">Full Time
+        <br/>
+        <input type="radio" id="Availability" name="Availability" value="Part Time">Part Time
+        <br/>
+        <br/>
+        <label for="Textarea"><b>Additional Comments : </b></label>
+        <br/>
+        <textarea id="Textarea" name="Textarea" rows="10" cols="50"></textarea>
+        <br/>
+        <br/>
+        <button type="Submit"></button>
+
+    </form>
+</body>
+</html>
